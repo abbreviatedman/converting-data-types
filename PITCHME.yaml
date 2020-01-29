@@ -1,4 +1,4 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
+# An Introduction to Functions
 #
 
 #
@@ -7,15 +7,16 @@
 #
 theme            : template
 
-theme-background : [ "#000000" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
-theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
-theme-controls   : [ "#C0C0C0" ]
-theme-margins    : [ "0", "15px" ]
-layout           : center
+theme-background  : [ "#000000" ]
+theme-headline    : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline      : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
+theme-text        : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-links       : [ "#F1C40F", "#5254F7" ]
+theme-code        : [ "Source Code Pro", "100", "120" ]
+theme-controls    : [ "#C0C0C0" ]
+theme-margins     : [ "0", "15px" ]
+layout            : center
+code-line-numbers : true
 
 #
 # Highlight Setting
@@ -33,8 +34,6 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : assets/img/logo.png
-logo-position : top-left
 
 #
 # Layout Setting
@@ -46,7 +45,6 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 
 #
 # Published Setting
@@ -58,7 +56,20 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
+title : "An Introduction To Functions"
 description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
 
+# PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
+theme            : template
+theme-background : [ "#141A46" ]
+theme-headline   : [ "Montserrat", "#EC8B5E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#FFFFFF", "none", "#EC8B5E", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#ECB15E", "100", "100", "15" ]
+theme-links      : [ "#F1C40F", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
+highlight        : ir-black
+theme-controls   : [ "#C0C0C0" ]
+theme-margins    : [ "0", "15px" ]
+layout           : center
+# PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
